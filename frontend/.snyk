@@ -1,0 +1,45 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - npm > libcipm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+    - npm > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+    - npm > node-gyp > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+    - npm > npm-registry-client > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+    - npm > npm-lifecycle > node-gyp > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > node-gyp > request > extend:
+        patched: '2019-08-09T12:05:09.695Z'
+  'npm:hoek:20180212':
+    - wysiwyg.css > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > request > hawk > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > request > hawk > boom > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > request > hawk > sntp > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+    - wysiwyg.css > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-08-09T12:05:09.695Z'
+  'npm:lodash:20180130':
+    - npm > cli-table2 > lodash:
+        patched: '2019-08-09T12:05:09.695Z'
+    - npm > npm-audit-report > cli-table2 > lodash:
+        patched: '2019-08-09T12:05:09.695Z'
+  'npm:tunnel-agent:20170305':
+    - wysiwyg.css > node-sass > request > tunnel-agent:
+        patched: '2019-08-09T12:05:09.695Z'
